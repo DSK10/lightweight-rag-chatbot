@@ -1,0 +1,248 @@
+NovaTech Solutions — Paid Time Off (PTO) Policy
+Document ID: HR-PTO-2026-005 | Effective Date: January 1, 2026 | Version 2.0
+Classification: Internal — All Employees
+
+================================================================================
+1. OVERVIEW
+================================================================================
+
+NovaTech Solutions provides Paid Time Off (PTO) for rest, personal activities,
+and vacation. PTO is a single bank combining vacation and personal days (sick
+leave is separate — see Section 5).
+
+PTO accrues based on tenure and is managed in WorkDay. PTO balance visible in
+WorkDay self-service portal and mobile app.
+
+Questions: pto@novatech.io | HR Service Center: hr@novatech.io
+
+================================================================================
+2. PTO ACCRUAL
+================================================================================
+
+2.1 Accrual Rates (Full-Time Employees)
+  Year 1 (0–12 months):     15 days/year (1.25 days/month)
+  Year 2–4 (13–48 months):  20 days/year (1.67 days/month)
+  Year 5+ (49+ months):     25 days/year (2.08 days/month)
+
+2.2 Accrual Schedule
+PTO accrues on the 1st of each month. Available for use after completing first
+30 days of employment. Accrual begins on start date.
+
+2.3 Part-Time Employees
+PTO accrues pro-rata based on hours worked. Minimum 20 hours/week for accrual
+eligibility. Formula: (hours worked / 40) × full-time accrual rate.
+
+2.4 Maximum Balance (Cap)
+PTO accrual stops when balance reaches 1.5× annual allotment:
+  Year 1: cap at 22.5 days
+  Year 2–4: cap at 30 days
+  Year 5+: cap at 37.5 days
+
+Accrual resumes when balance drops below cap. Encouraged to use PTO regularly.
+
+2.5 Tenure Calculation
+Tenure calculated from original hire date. Rehires within 12 months: tenure
+restored. Rehires after 12 months: treated as new hire for PTO purposes unless
+approved by HR VP.
+
+================================================================================
+3. USING PTO
+================================================================================
+
+3.1 Request Process
+  1. Submit PTO request in WorkDay at least 2 weeks in advance (recommended)
+  2. Manager approves/denies within 3 business days
+  3. Auto-approved if no manager response within 3 days (except blackouts)
+  4. Block calendar in Google Calendar (auto-sync from WorkDay)
+
+3.2 Minimum/Maximum Request
+  - Minimum: 2 hours (partial day)
+  - Maximum consecutive: 15 business days without VP approval
+  - PTO over 15 consecutive days: requires HR and VP approval, 30-day notice
+
+3.3 Same-Day PTO
+Permitted with manager notification (Slack/email acceptable). No approval needed
+for same-day if balance available, but manager must be informed before start
+of workday.
+
+3.4 Blackout Periods
+PTO requests may be restricted during:
+  - End of quarter (last 5 business days of March, June, September, December)
+    for Sales and Customer Success teams
+  - Major product launches (announced 60 days in advance)
+  - Company all-hands week (first week of January)
+  - On-call rotation (SRE team — swap required before PTO)
+
+Blackout exceptions require director approval.
+
+3.5 Team Coverage
+Employees responsible for ensuring coverage during PTO. Document handoff in team
+wiki or Slack channel. For client-facing roles, notify clients 1 week in advance.
+
+================================================================================
+4. PTO PAYOUT AND CARRYOVER
+================================================================================
+
+4.1 End of Year
+Unused PTO carries over to next calendar year, subject to cap (Section 2.4).
+No "use it or lose it" — but employees encouraged to use at least 10 days/year
+for wellbeing.
+
+4.2 Separation Payout
+Upon termination or resignation:
+  - California, Colorado, Illinois, Massachusetts, Montana, Nebraska, North
+    Dakota employees: all unused PTO paid out at final rate of pay
+  - Other states: payout per state law (typically accrued but unused PTO paid)
+  - Payout on final paycheck
+  - No payout for employees terminated for cause (theft, violence, data breach)
+
+4.3 Buy-Back Program
+No PTO buy-back program currently offered. Employees may not sell or transfer
+PTO to colleagues.
+
+4.4 Negative Balance
+PTO balance may not go negative. If PTO taken before accrual (not permitted),
+employee must repay via payroll deduction or return to work.
+
+================================================================================
+5. SICK LEAVE
+================================================================================
+
+5.1 Allotment
+10 sick days per calendar year, separate from PTO. Does not carry over (resets
+January 1). Does not pay out on separation (except where required by state law).
+
+5.2 Eligible Uses
+  - Employee illness or injury
+  - Medical appointments
+  - Care for ill family member (spouse, child, parent)
+  - Mental health days (no documentation required for 1–3 consecutive days)
+
+5.3 Documentation
+Sick leave exceeding 3 consecutive days requires doctor's note. HR may request
+documentation for patterns of sick leave use (e.g., every Monday).
+
+5.4 State-Specific Sick Leave
+Employees in states with mandatory sick leave laws (CA, NY, WA, etc.) receive
+the greater of NovaTech sick leave or state minimum.
+
+================================================================================
+6. PARENTAL AND FAMILY LEAVE
+================================================================================
+
+6.1 Parental Leave
+  Primary caregiver: 16 weeks fully paid
+  Secondary caregiver: 8 weeks fully paid
+  Applies to birth, adoption, and foster placement
+  Must be taken within 12 months of event
+  May be taken consecutively or intermittently (with manager approval)
+  Benefits continue during leave
+
+6.2 Pregnancy Leave
+In addition to parental leave, pregnant employees receive reasonable accommodations
+and additional medical leave per state law (e.g., CA Pregnancy Disability Leave:
+up to 4 months).
+
+6.3 Family Care Leave
+Up to 2 weeks unpaid leave per year for family care (extended family illness,
+eldercare). May use PTO or take unpaid. FMLA eligibility: 12 weeks unpaid
+protected leave for qualifying events (after 12 months employment, 1250 hours).
+
+6.4 Bereavement Leave
+  Immediate family (spouse, child, parent, sibling): 5 paid days
+  Extended family (grandparent, in-law, aunt/uncle): 3 paid days
+  Additional unpaid leave available via FMLA if applicable
+  Immediate family definition includes domestic partner (registered)
+
+================================================================================
+7. COMPANY HOLIDAYS
+================================================================================
+
+7.1 Observed Holidays (2026)
+NovaTech offices closed on:
+  - New Year's Day: January 1
+  - Martin Luther King Jr. Day: January 19
+  - Presidents' Day: February 16
+  - Memorial Day: May 25
+  - Juneteenth: June 19
+  - Independence Day: July 3 (observed)
+  - Labor Day: September 7
+  - Thanksgiving: November 26–27
+  - Christmas Eve: December 24
+  - Christmas Day: December 25
+  - Floating Holiday: 1 day (employee choice, manager approval)
+
+Total: 12 company holidays + 1 floating holiday
+
+7.2 Holiday Pay
+Full-time employees receive holiday pay (regular rate). Required to work: 1.5x
+rate or comp day (employee choice). Part-time: pro-rata if normally scheduled.
+
+7.3 Global Holidays
+International employees receive local public holidays per country schedule
+(available in WorkDay). UK: 8 bank holidays. India: 10 public holidays.
+Germany: 10 public holidays (varies by state).
+
+================================================================================
+8. SPECIAL LEAVE TYPES
+================================================================================
+
+8.1 Jury Duty
+Paid leave for duration of jury service. Submit summons to HR within 5 days.
+Employee retains any jury pay received.
+
+8.2 Military Leave
+Protected leave per USERRA. Up to 15 days paid military leave per year for
+training/drills. Extended active duty: unpaid protected leave, benefits continue
+for 30 days.
+
+8.3 Voting Leave
+Up to 4 hours paid leave to vote in elections (where not provided by state law
+already). Must notify manager 2 days in advance.
+
+8.4 Volunteer Time Off (VTO)
+16 hours paid volunteer time per year for approved charitable activities.
+Register through Benevity portal. Must be 501(c)(3) organization.
+
+8.5 Sabbatical
+Employees with 7+ years tenure may apply for 4–8 week unpaid sabbatical.
+Requires VP and HR approval. Benefits continue for first 4 weeks. One sabbatical
+per 7-year period. Must be taken in minimum 2-week blocks.
+
+8.6 Leave of Absence (Unpaid)
+Extended unpaid leave (beyond FMLA) may be granted for personal reasons with
+HR VP approval. Maximum 6 months. Benefits suspended after 30 days (COBRA offered).
+Return not guaranteed for leaves over 3 months (position may be filled).
+
+================================================================================
+9. PTO AND REMOTE WORK
+================================================================================
+
+Remote employees follow the same PTO policy. PTO may be taken from any location.
+No requirement to be reachable during PTO (disable Slack notifications).
+Emergency contact: provide manager with optional contact method for true emergencies.
+
+International PTO: permitted if employee is in approved remote work country.
+Notify HR if PTO exceeds 30 consecutive days (tax implications).
+
+================================================================================
+10. POLICY ADMINISTRATION
+================================================================================
+
+10.1 Tracking
+All PTO managed in WorkDay. Employees responsible for monitoring balance.
+Discrepancies: contact HR within 30 days.
+
+10.2 Manager Responsibilities
+  - Approve PTO promptly and fairly
+  - Ensure team coverage and workload distribution
+  - Encourage employees to use PTO (monitor for burnout)
+  - Do not deny PTO arbitrarily or retaliate for PTO use
+  - Report PTO abuse concerns to HR (do not investigate independently)
+
+10.3 Abuse
+PTO abuse (falsifying reasons, patterns of unapproved absence) may result in
+disciplinary action. Sick leave patterns reviewed by HR quarterly.
+
+Document Owner: People Operations
+Approved by: CHRO, January 2026 | Next Review: January 2027

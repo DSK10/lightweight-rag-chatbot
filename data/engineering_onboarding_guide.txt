@@ -1,0 +1,305 @@
+NovaTech Solutions — Engineering Onboarding Guide
+Document ID: ENG-ONB-2026-001 | Effective Date: January 1, 2026 | Version 1.5
+Classification: Internal — Engineering Department
+
+================================================================================
+1. WELCOME TO ENGINEERING
+================================================================================
+
+Welcome to NovaTech Engineering! This guide covers your first 90 days on the
+Engineering team. NovaTech Engineering has 412 engineers across 8 product squads
+and 3 platform teams.
+
+Engineering Leadership:
+  - CTO: Sarah Chen
+  - VP Engineering: Marcus Williams
+  - VP Platform: Priya Sharma
+  - Director, Product Engineering: James Okonkwo
+
+Your onboarding buddy will reach out on Day 1. Questions: eng-onboarding@novatech.io
+
+================================================================================
+2. FIRST WEEK CHECKLIST
+================================================================================
+
+Day 1 — Welcome and Setup
+  [ ] Complete WorkDay onboarding tasks
+  [ ] Sign handbook, code of conduct, and security policy acknowledgments
+  [ ] Receive laptop (pre-shipped for remote, in-person pickup for office)
+  [ ] Set up Okta SSO and MFA (Okta Verify app required)
+  [ ] Join Slack channels (see Section 4)
+  [ ] Meet your manager (1:1, 30 min)
+  [ ] Meet your onboarding buddy (1:1, 30 min)
+  [ ] Company orientation (10:00 AM – 12:00 PM, all new hires)
+
+Day 2 — Tools and Access
+  [ ] GitHub Enterprise: verify org access (github.com/novatech-io)
+  [ ] Jira/Confluence: verify project access
+  [ ] AWS/GCP: verify IAM role assignment (via Okta)
+  [ ] PagerDuty: account created (on-call training in Week 3)
+  [ ] Datadog: read-only access granted
+  [ ] 1Password: join Engineering vault
+  [ ] Team intro meeting with your squad
+
+Day 3 — Security and Compliance
+  [ ] Complete Security Awareness Training (WorkDay Learning)
+  [ ] Complete Secure Development Lifecycle (SDL) training
+  [ ] Set up VPN (GlobalProtect) and verify connectivity
+  [ ] Review Information Security Policy (SEC-ISP-2026-002)
+  [ ] Enable full-disk encryption and verify CrowdStrike installed
+  [ ] Submit SSH public key to GitHub (Ed25519 required, RSA deprecated)
+
+Day 4 — Development Environment
+  [ ] Clone team repositories (see Section 5)
+  [ ] Run local development setup (team-specific README)
+  [ ] Run test suite successfully (all green)
+  [ ] Deploy to personal dev environment (staging namespace)
+  [ ] Submit first PR (documentation fix or good-first-issue label)
+  [ ] Attend team standup and introduce yourself
+
+Day 5 — Culture and Process
+  [ ] Read Engineering Handbook (Confluence: ENG/HANDBOOK)
+  [ ] Review team sprint board and current sprint goals
+  [ ] Schedule recurring 1:1 with manager (weekly, 30 min)
+  [ ] Attend Engineering All-Hands (Fridays 4:00 PM UTC)
+  [ ] Complete Week 1 onboarding survey (auto-sent via email)
+
+================================================================================
+3. ENGINEERING ORGANIZATION
+================================================================================
+
+3.1 Product Squads
+  Squad Atlas:     Workflow Automation Engine (12 engineers)
+  Squad Beacon:    Data Integration Platform (10 engineers)
+  Squad Cipher:    Compliance & Audit Module (8 engineers)
+  Squad Delta:     Customer Portal & Dashboard (9 engineers)
+  Squad Echo:      AI/ML Pipeline Services (11 engineers)
+  Squad Forge:     Developer API & SDK (8 engineers)
+  Squad Grid:      Billing & Subscription Engine (7 engineers)
+  Squad Harbor:    Mobile Applications (6 engineers)
+
+3.2 Platform Teams
+  Platform Infrastructure (Infra): Kubernetes, CI/CD, cloud resources (15 eng)
+  Platform Security (SecPlat): Security tooling, compliance automation (8 eng)
+  Platform Data (DataPlat): Data warehouse, analytics, ML infra (10 eng)
+
+3.3 Engineering Levels
+  E1 (Associate Engineer): 0–2 years experience
+  E2 (Engineer): 2–4 years
+  E3 (Senior Engineer): 4–7 years
+  E4 (Staff Engineer): 7–10 years, cross-team impact
+  E5 (Principal Engineer): 10+ years, org-wide technical direction
+  E6 (Distinguished Engineer): Industry-recognized expert, reports to CTO
+
+3.4 Career Framework
+Detailed expectations per level: Confluence → ENG → Career Framework
+Promotion cycles: March and September. Self-nomination + manager sponsorship.
+Typical time at level: E1→E2: 18 months, E2→E3: 24 months, E3→E4: 36 months.
+
+================================================================================
+4. COMMUNICATION CHANNELS
+================================================================================
+
+4.1 Slack Channels (Required)
+  #engineering: All engineering announcements
+  #eng-random: Social, memes, non-work chat
+  #eng-help: Cross-team technical questions
+  #incidents: Production incident coordination
+  #deploys: Deployment notifications (automated)
+  #[your-squad]: Squad-specific channel
+  #onboarding-[month]: Your cohort's onboarding channel
+
+4.2 Slack Channels (Recommended)
+  #tech-talks: Engineering talks and learning
+  #book-club: Engineering book discussions
+  #oss: Open source contributions and discussions
+  #[language]-dev: #go-dev, #python-dev, #typescript-dev
+
+4.3 Meetings
+  Daily standup: 9:30 AM local (squad-specific, 15 min max)
+  Sprint planning: Every other Monday (1 hour)
+  Sprint retro: Every other Friday (45 min)
+  Backlog grooming: Weekly Wednesday (30 min)
+  Engineering All-Hands: Friday 4:00 PM UTC (30 min, recorded)
+  1:1 with manager: Weekly (30 min)
+
+4.4 Documentation
+  Confluence: Primary documentation (confluence.novatech.io)
+  GitHub Wiki: Repository-specific docs
+  Architecture Decision Records (ADRs): /docs/adr/ in each repo
+  Runbooks: PagerDuty → Service → Runbooks
+
+================================================================================
+5. TECHNOLOGY STACK
+================================================================================
+
+5.1 Languages (by usage)
+  Primary: Go (45%), Python (25%), TypeScript (20%)
+  Secondary: Rust (5%), Java (3%), SQL (2%)
+
+5.2 Infrastructure
+  Cloud: AWS (primary), GCP (ML workloads)
+  Container orchestration: Kubernetes (EKS)
+  CI/CD: GitHub Actions, ArgoCD
+  IaC: Terraform, Pulumi
+  Service mesh: Istio
+  Monitoring: Datadog, PagerDuty, Sentry
+
+5.3 Data
+  Primary DB: PostgreSQL 16 (RDS)
+  Cache: Redis 7 (ElastiCache)
+  Message queue: Apache Kafka (MSK)
+  Search: Elasticsearch 8 (OpenSearch)
+  Data warehouse: Snowflake
+  Object storage: S3
+
+5.4 Key Repositories
+  github.com/novatech-io/workflow-engine (Go) — Squad Atlas
+  github.com/novatech-io/data-connector (Python) — Squad Beacon
+  github.com/novatech-io/compliance-core (Go) — Squad Cipher
+  github.com/novatech-io/customer-portal (TypeScript/React) — Squad Delta
+  github.com/novatech-io/ml-pipeline (Python/Rust) — Squad Echo
+  github.com/novatech-io/public-api (Go) — Squad Forge
+  github.com/novatech-io/billing-service (Go) — Squad Grid
+  github.com/novatech-io/platform-infra (Terraform) — Platform Infra
+
+5.5 Development Standards
+  - Go: follow Uber Go Style Guide
+  - Python: follow PEP 8, use ruff for linting, mypy for type checking
+  - TypeScript: strict mode enabled, ESLint + Prettier
+  - Git: Conventional Commits (feat:, fix:, docs:, chore:)
+  - Branch naming: [username]/[ticket-id]-[description]
+  - PR title: "[TICKET-123] Brief description"
+
+================================================================================
+6. DEVELOPMENT WORKFLOW
+================================================================================
+
+6.1 Sprint Process
+  - 2-week sprints, starting Monday
+  - Story points: Fibonacci (1, 2, 3, 5, 8, 13)
+  - Velocity tracked per squad in Jira
+  - WIP limit: 2 stories per engineer (max)
+
+6.2 Pull Request Process
+  1. Create branch from main
+  2. Implement change with tests (80% coverage minimum)
+  3. Run linters locally (pre-commit hooks enforce)
+  4. Push and create PR with description template
+  5. Request review from 1+ team member
+  6. Address review comments
+  7. CI must pass (build, test, lint, SAST, security scan)
+  8. Squash merge to main
+  9. Auto-deploy to staging
+  10. Manual promote to production (via ArgoCD)
+
+6.3 Code Review Guidelines
+  - Review within 4 business hours
+  - Be constructive and specific
+  - Approve if changes are acceptable (don't block on style nitpicks)
+  - Use "request changes" only for bugs, security issues, or missing tests
+  - Pair on complex reviews when helpful
+
+6.4 Testing Requirements
+  - Unit tests: required for all new code
+  - Integration tests: required for API changes
+  - E2E tests: required for UI changes (Playwright)
+  - Load tests: required for performance-critical changes
+  - Test naming: TestFunctionName_Scenario_ExpectedResult
+
+6.5 Deployment
+  - Staging: auto-deploy on merge to main
+  - Production: manual promotion, Tuesday/Thursday 2–6 AM UTC
+  - Rollback: via ArgoCD (one-click) or revert commit
+  - Feature flags: LaunchDarkly (all new features behind flags)
+
+================================================================================
+7. ON-CALL ROTATION
+================================================================================
+
+7.1 Overview
+All E2+ engineers participate in on-call rotation. Rotation: 1 week, starting
+Monday 9:00 AM local. Typical rotation size: 6–8 engineers per squad.
+
+7.2 On-Call Compensation
+  - Weekday on-call: $250/week stipend
+  - Weekend on-call: $150/weekend stipend
+  - Incident response: $100 per SEV-1/SEV-2 page (outside business hours)
+
+7.3 On-Call Training
+  - Shadow on-call for 1 week before first solo rotation (Week 3 of onboarding)
+  - PagerDuty setup and escalation paths review
+  - Runbook review for squad's services
+  - Incident Commander training (E3+)
+
+7.4 Escalation Path
+  L1: On-call engineer (15 min response)
+  L2: On-call engineer + squad lead (30 min)
+  L3: On-call + VP Engineering + CTO (SEV-1 only)
+  Security incidents: + CISO at L2
+
+7.5 On-Call Best Practices
+  - Keep laptop and phone charged and accessible
+  - VPN configured and tested before rotation starts
+  - Review recent incidents and runbooks before your week
+  - Hand off open issues to next on-call in Slack #incidents
+
+================================================================================
+8. FIRST 90 DAYS MILESTONES
+================================================================================
+
+Day 30 — Foundation
+  [ ] All tools and access configured
+  [ ] First PR merged (any size)
+  [ ] Attended all team ceremonies
+  [ ] Completed security and SDL training
+  [ ] 30-day check-in with manager
+  [ ] 30-day check-in with HR Business Partner
+
+Day 60 — Contribution
+  [ ] 3+ PRs merged (including 1 feature or bug fix)
+  [ ] Participated in code reviews (reviewed 5+ PRs)
+  [ ] On-call shadow week completed
+  [ ] Presented at team standup or tech talk (5 min)
+  [ ] 60-day check-in with manager
+
+Day 90 — Integration
+  [ ] Independently owned and shipped a feature or fix
+  [ ] On-call rotation completed (or scheduled)
+  [ ] Written 1 ADR or significant documentation
+  [ ] 90-day performance check-in with manager
+  [ ] Completed onboarding feedback survey
+  [ ] Onboarding buddy program graduation
+
+================================================================================
+9. RESOURCES AND SUPPORT
+================================================================================
+
+9.1 Learning Resources
+  - NovaTech Learning Portal (WorkDay): internal courses
+  - O'Reilly Learning (free access via Okta)
+  - Pluralsight (free access via Okta)
+  - Engineering Tech Talks: recorded on Confluence (ENG/TALKS)
+  - Book budget: $200/quarter (see Expense Policy)
+
+9.2 Mentorship
+  - Onboarding buddy: first 90 days (informal)
+  - Engineering mentor: optional, request via eng-mentorship@novatech.io
+  - Career mentor: available at E2+ level
+
+9.3 Employee Resource Groups (ERGs)
+  - Women in Engineering (WiE)
+  - NovaTech Black Engineers (NBE)
+  - NovaTech LGBTQ+ Alliance
+  - Veterans in Tech
+  - Parents in Tech
+
+9.4 Key Contacts
+  - Engineering onboarding: eng-onboarding@novatech.io
+  - IT support: it-help@novatech.io (ServiceNow)
+  - HR Business Partner (Engineering): hr-bp-eng@novatech.io
+  - Security questions: security@novatech.io
+  - Manager escalation: skip-level via WorkDay org chart
+
+Document Owner: Engineering Operations
+Maintained by: eng-onboarding@novatech.io | Last Updated: January 2026

@@ -1,0 +1,287 @@
+NovaTech Solutions — Information Security Policy
+Document ID: SEC-ISP-2026-002 | Effective Date: January 1, 2026 | Version 4.0
+Classification: Internal — All Employees, Contractors
+Compliance: SOC 2 Type II, ISO 27001, GDPR, HIPAA (BAA clients)
+
+================================================================================
+1. PURPOSE
+================================================================================
+
+This policy establishes requirements for protecting NovaTech Solutions
+information assets, customer data, and intellectual property. All personnel with
+access to NovaTech systems must comply. Non-compliance may result in disciplinary
+action up to and including termination and legal prosecution.
+
+Security team contact: security@novatech.io | PagerDuty: nova-sec-oncall
+Report incidents immediately: incident@novatech.io (24/7 response within 15 min)
+
+================================================================================
+2. DATA CLASSIFICATION
+================================================================================
+
+2.1 PUBLIC
+Information approved for public release. Example: marketing materials, press
+releases, public documentation. No handling restrictions.
+
+2.2 INTERNAL
+Default classification for business information not intended for public release.
+Examples: internal wikis, org charts, meeting notes. Share only within NovaTech.
+
+2.3 CONFIDENTIAL
+Sensitive business information that could harm NovaTech if disclosed. Examples:
+financial reports, product roadmaps, unreleased features, employee salaries.
+Encrypted storage and transmission required. Need-to-know access only.
+
+2.4 RESTRICTED
+Highest sensitivity. Unauthorized disclosure could cause severe legal, financial,
+or reputational damage. Examples:
+  - Customer PII (names, emails, SSNs, health records)
+  - Authentication credentials and API keys
+  - Encryption keys and certificates
+  - M&A documents and legal proceedings
+  - Source code for security-critical modules
+
+Restricted data must be encrypted at rest (AES-256) and in transit (TLS 1.3).
+Access logged and reviewed monthly. No storage on personal devices or unapproved
+cloud services.
+
+2.5 Labeling Requirements
+All documents in Google Drive and Confluence must have classification labels
+applied via NovaTech DLP plugin. Unlabeled documents default to CONFIDENTIAL.
+
+================================================================================
+3. ACCESS CONTROL
+================================================================================
+
+3.1 Principle of Least Privilege
+Employees receive minimum access required for their role. Access reviews conducted
+quarterly by managers and Security team.
+
+3.2 Authentication
+  - SSO via Okta for all applications
+  - MFA mandatory for all employees (Okta Verify or YubiKey)
+  - Password minimum: 14 characters (where passwords used), rotated every 90 days
+  - Service accounts: certificate-based auth, no password auth in production
+  - Shared accounts prohibited except break-glass emergency accounts (logged)
+
+3.3 Role-Based Access (RBAC)
+Standard roles defined in IAM:
+  - eng-developer: Read/write non-prod, read-only prod
+  - eng-sre: Full prod access with approval workflow
+  - eng-lead: Admin non-prod, elevated prod (2-person rule)
+  - support-agent: Customer data read via CRM (masked PII)
+  - finance-analyst: Financial systems read-only
+  - hr-admin: HRIS full access (Restricted data)
+
+3.4 Privileged Access Management (PAM)
+Production database and infrastructure access via Teleport with session recording.
+Maximum session: 4 hours. Just-in-time access requests require manager + Security
+approval. All sessions logged for 365 days.
+
+3.5 Offboarding
+Access revoked within 1 hour of termination notification. IT runs automated
+offboarding checklist: Okta disable, laptop wipe, badge deactivate, GitHub
+membership removal, AWS IAM key rotation.
+
+================================================================================
+4. NETWORK SECURITY
+================================================================================
+
+4.1 Network Segmentation
+  - Corporate network (employees): VLAN 10
+  - Production environment: VLAN 100 (isolated, no direct employee access)
+  - Development/staging: VLAN 50
+  - Guest Wi-Fi: VLAN 200 (internet only, no internal access)
+
+4.2 Firewall Rules
+Default deny all inbound. Outbound allowed: HTTPS (443), SSH (22 to bastion only),
+internal service mesh. Rule changes require Security approval and change ticket.
+
+4.3 VPN Policy
+GlobalProtect VPN required for:
+  - All remote employees accessing internal resources
+  - Office Wi-Fi access to production tools
+  - Travel to high-risk countries (see Travel Security Addendum)
+
+VPN split tunneling disabled. Full tunnel required. Geo-blocking enabled for
+connections from sanctioned countries (OFAC list).
+
+4.4 Wireless Security
+Office Wi-Fi: WPA3-Enterprise with certificate-based authentication. Guest network
+isolated. No IoT devices on corporate network without Security approval.
+
+================================================================================
+5. ENDPOINT SECURITY
+================================================================================
+
+5.1 Approved Devices
+Only NovaTech-managed devices may access Restricted data. MDM (Jamf/Intune)
+enforces:
+  - Full disk encryption
+  - CrowdStrike Falcon EDR
+  - Automatic patching (critical patches within 48 hours)
+  - USB storage disabled by default (exceptions via ticket)
+  - Application allowlisting
+
+5.2 Mobile Devices
+Company email on personal phones via Microsoft Intune MAM (containerized).
+No Restricted data on mobile devices. Lost phone: report within 1 hour, remote
+wipe initiated.
+
+5.3 Removable Media
+USB drives, external hard drives prohibited unless encrypted (BitLocker To Go
+or hardware-encrypted drives approved by Security). All transfers logged.
+
+5.4 Software Installation
+Employees may not install unapproved software. Approved catalog in Self-Service
+portal. Request new software via ServiceNow with business justification.
+
+================================================================================
+6. APPLICATION SECURITY
+================================================================================
+
+6.1 Secure Development Lifecycle (SDL)
+All code changes require:
+  - Peer code review (minimum 1 approver)
+  - Automated SAST scan (SonarQube) — no critical/high findings
+  - Dependency vulnerability scan (Snyk) — no critical CVEs
+  - Unit test coverage minimum 80% for new code
+
+6.2 Secrets Management
+No secrets in source code. Use HashiCorp Vault or AWS Secrets Manager.
+Pre-commit hooks block commits containing API keys, passwords, or tokens.
+Detected secret leaks: rotate immediately, incident report required.
+
+6.3 Production Changes
+  - All production deployments via CI/CD pipeline (no manual deploys)
+  - Change Advisory Board (CAB) approval for high-risk changes
+  - Rollback plan required for every deployment
+  - Maintenance windows: Tuesday/Thursday 2:00–6:00 AM UTC
+
+6.4 Third-Party Libraries
+New open-source dependencies require Security review. License compliance checked
+via FOSSA. Prohibited licenses: GPL (for SaaS products), AGPL, SSPL.
+
+================================================================================
+7. DATA PROTECTION AND PRIVACY
+================================================================================
+
+7.1 Customer Data Handling
+Customer data processed per Data Processing Agreement (DPA). Key requirements:
+  - Data residency: US, EU, or APAC per customer contract
+  - Retention: deleted within 30 days of contract termination
+  - Sub-processors: listed at novatech.io/subprocessors, 30-day change notice
+  - Data subject requests (DSR): responded within 30 days (GDPR) / 45 days (CCPA)
+
+7.2 PII Minimization
+Collect only necessary PII. Mask in logs (email → e***@domain.com). Production
+data must not be used in development. Use synthetic data generator (FakerDB tool).
+
+7.3 Encryption Standards
+  - At rest: AES-256-GCM
+  - In transit: TLS 1.3 (minimum TLS 1.2 until June 2026)
+  - Database: Transparent Data Encryption (TDE) enabled
+  - Backups: encrypted, stored in separate AWS account, 90-day retention
+
+7.4 Data Loss Prevention (DLP)
+Google Workspace DLP rules prevent:
+  - Emailing Restricted data to external recipients
+  - Uploading source code to personal cloud storage
+  - Printing documents classified Confidential or above
+
+DLP violations trigger automatic alert to Security team and employee's manager.
+
+================================================================================
+8. INCIDENT RESPONSE
+================================================================================
+
+8.1 Severity Levels
+  SEV-1 (Critical): Active data breach, production outage affecting all customers
+    Response: 15 minutes | Escalation: CISO, CEO, Legal
+  SEV-2 (High): Suspected breach, partial outage, vulnerability actively exploited
+    Response: 30 minutes | Escalation: Security Lead, VP Engineering
+  SEV-3 (Medium): Policy violation, failed audit finding, phishing attempt
+    Response: 4 hours | Escalation: Security Analyst, Manager
+  SEV-4 (Low): Policy question, minor misconfiguration, security awareness
+    Response: 24 hours | Escalation: Security Analyst
+
+8.2 Incident Reporting
+All employees must report suspected incidents within 1 hour:
+  - Email: incident@novatech.io
+  - Slack: #security-incidents (monitored 24/7)
+  - Phone: 1-800-555-0199 (Ethics & Security Hotline)
+
+Do NOT attempt to investigate or remediate independently. Preserve evidence.
+Do not discuss incidents externally.
+
+8.3 Breach Notification
+Customer notification within 72 hours (GDPR) or as required by contract. Regulatory
+notification per applicable law. Post-incident review (PIR) within 5 business days.
+
+8.4 Tabletop Exercises
+Company-wide incident response drill conducted annually (October). Department-
+level drills quarterly. Participation mandatory for Engineering, Support, Legal.
+
+================================================================================
+9. VENDOR AND THIRD-PARTY SECURITY
+================================================================================
+
+9.1 Vendor Assessment
+All vendors accessing NovaTech or customer data must complete security
+questionnaire. Risk tier assigned:
+  Tier 1 (Critical): SOC 2 Type II required, annual pen test, on-site audit
+  Tier 2 (Important): SOC 2 or ISO 27001, questionnaire annually
+  Tier 3 (Low): Basic questionnaire, review every 2 years
+
+9.2 Approved Cloud Services
+Only approved services may store NovaTech data:
+  APPROVED: AWS, GCP, Google Workspace, GitHub Enterprise, Slack, Salesforce,
+            Datadog, PagerDuty, Okta, HashiCorp Vault
+  PROHIBITED: Personal Dropbox, personal Google Drive, WeChat, Telegram,
+              unauthorized AI tools (ChatGPT free tier with company data)
+
+9.3 AI Tool Usage
+Employees may use NovaTech-approved AI tools only:
+  - GitHub Copilot Enterprise (approved for code)
+  - NovaTech Internal LLM (nova-ai.internal.novatech.io)
+  - ChatGPT Team (approved instances only)
+
+Do NOT paste Restricted or Confidential data into public AI tools.
+
+================================================================================
+10. COMPLIANCE AND AUDIT
+================================================================================
+
+10.1 Certifications
+NovaTech maintains: SOC 2 Type II (annual), ISO 27001 (annual), HIPAA (for
+healthcare clients), PCI DSS Level 1 (for payment processing module).
+
+10.2 Internal Audits
+Security team conducts quarterly access reviews and vulnerability assessments.
+Findings tracked in Jira Security project. Remediation SLAs:
+  Critical: 7 days | High: 30 days | Medium: 90 days | Low: 180 days
+
+10.3 Employee Training
+  - Security awareness training: annual (mandatory, due by March 31)
+  - Phishing simulations: monthly
+  - Role-specific training: developers (SDL), support (PII handling)
+  - Failure to complete training: system access suspended after 14-day grace period
+
+10.4 Penetration Testing
+External pen test annually by approved firm (current: Bishop Fox). Critical
+findings remediated before next audit cycle. Bug bounty program: HackerOne,
+$100–$10,000 rewards.
+
+================================================================================
+11. POLICY ENFORCEMENT
+================================================================================
+
+Violations classified as:
+  Minor: Verbal warning + retraining (e.g., unlocked screen, late patching)
+  Moderate: Written warning + manager notification (e.g., unauthorized software)
+  Major: Suspension or termination (e.g., sharing credentials, data exfiltration)
+  Critical: Immediate termination + legal action (e.g., intentional breach, sabotage)
+
+Policy Owner: Chief Information Security Officer (CISO)
+Approved by: CEO and Board Audit Committee, January 2026
+Next Review: July 2026

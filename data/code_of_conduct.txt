@@ -1,0 +1,268 @@
+NovaTech Solutions — Code of Conduct
+Document ID: LEG-COC-2026-001 | Effective Date: January 1, 2026 | Version 3.0
+Classification: Internal — All Employees, Contractors, Board Members
+
+================================================================================
+1. INTRODUCTION
+================================================================================
+
+NovaTech Solutions is committed to the highest standards of ethical conduct. This
+Code of Conduct applies to all employees, contractors, consultants, and board
+members ("personnel") regardless of location or role.
+
+Every person at NovaTech is responsible for understanding and following this Code.
+Violations may result in disciplinary action up to and including termination and
+referral to law enforcement.
+
+Ethics Hotline (anonymous): 1-800-555-0199 | ethics@novatech.io
+General Counsel: legal@novatech.io
+
+================================================================================
+2. OUR COMMITMENTS
+================================================================================
+
+2.1 Integrity
+We are honest and transparent in all business dealings. We do not misrepresent
+products, services, financial results, or our capabilities. Marketing claims must
+be verifiable and approved by Legal and Product Marketing.
+
+2.2 Respect
+We treat colleagues, customers, partners, and community members with dignity
+and respect. We value diverse perspectives and create an environment where everyone
+can contribute their best work.
+
+2.3 Accountability
+We take ownership of our decisions and their consequences. We admit mistakes,
+learn from them, and implement corrective actions. We do not blame others or
+hide problems.
+
+2.4 Compliance
+We comply with all applicable laws and regulations in every jurisdiction where
+we operate, including anti-corruption, antitrust, export control, privacy, and
+employment laws.
+
+================================================================================
+3. WORKPLACE BEHAVIOR
+================================================================================
+
+3.1 Anti-Discrimination and Harassment
+NovaTech prohibits discrimination based on race, color, religion, sex, sexual
+orientation, gender identity, national origin, age, disability, veteran status,
+genetic information, or any other protected characteristic.
+
+Harassment includes unwelcome conduct based on protected characteristics that
+creates an intimidating, hostile, or offensive work environment. Examples:
+  - Offensive jokes, slurs, or epithets
+  - Unwelcome physical contact or sexual advances
+  - Displaying offensive images or materials
+  - Threatening or bullying behavior
+  - Retaliation against anyone who reports concerns
+
+Report to: HR (hr@novatech.io), your manager, or Ethics Hotline. All reports
+investigated promptly and confidentially to the extent possible.
+
+3.2 Violence and Threats
+Violence, threats of violence, and intimidating behavior are prohibited. This
+includes verbal threats, physical altercations, and bringing weapons to company
+premises (except where permitted by law).
+
+3.3 Substance Abuse
+Working while impaired by alcohol or illegal drugs is prohibited. Prescription
+medications that impair work ability should be discussed with HR for reasonable
+accommodations. Alcohol at company events must be consumed responsibly.
+
+3.4 Workplace Relationships
+Romantic relationships between employees where one has direct or indirect authority
+over the other must be disclosed to HR. HR will implement conflict mitigation
+(meeting reassignment, reporting line change). Failure to disclose may result in
+termination of one or both parties.
+
+3.5 Social Media
+When posting about NovaTech on personal social media:
+  - Clearly state opinions are your own (not company positions)
+  - Do not share confidential or proprietary information
+  - Do not disparage customers, competitors, or colleagues
+  - Do not post content that could harm NovaTech's reputation
+  - Official company social media posts require Marketing approval
+
+================================================================================
+4. CUSTOMER AND PARTNER RELATIONS
+================================================================================
+
+4.1 Fair Dealing
+We compete fairly and honestly. We do not engage in:
+  - False or misleading statements about competitors
+  - Industrial espionage or theft of trade secrets
+  - Price fixing, bid rigging, or market allocation (antitrust violations)
+  - Bribery or kickbacks (see Section 6)
+
+4.2 Customer Commitments
+We deliver products and services as promised. We communicate honestly about
+capabilities, limitations, timelines, and pricing. We honor SLAs and contracts.
+Customer data is protected per our security and privacy policies.
+
+4.3 Gifts and Hospitality
+  - Employees may accept gifts valued at $75 or less
+  - Gifts over $75 must be declined or donated to charity
+  - Entertainment (meals, events) must be reasonable and business-related
+  - Never accept cash or cash equivalents
+  - All gifts from vendors/customers over $25 must be reported in Gift Registry
+    (ethics.novatech.io/gifts)
+
+4.4 Conflicts of Interest
+Avoid situations where personal interests conflict with NovaTech's interests.
+Disclose potential conflicts to HR and your manager. Examples requiring disclosure:
+  - Financial interest in a competitor, vendor, or customer
+  - Outside employment or consulting
+  - Board membership at another company
+  - Family member working at a competitor or key vendor
+  - Personal relationship with a vendor decision-maker
+
+Annual conflict of interest disclosure required for Level 4+ and all managers.
+
+================================================================================
+5. PROTECTING COMPANY ASSETS
+================================================================================
+
+5.1 Intellectual Property
+All work product created during employment belongs to NovaTech. This includes
+code, designs, documentation, inventions, and processes. Do not use NovaTech IP
+for personal projects without written approval from Legal.
+
+5.2 Confidential Information
+Protect confidential information at all times. Do not discuss internal matters
+with unauthorized persons. NDAs required before sharing confidential information
+externally. Confidential obligations continue after employment ends.
+
+5.3 Equipment and Resources
+Use company equipment and resources for business purposes. Limited personal use
+permitted (checking personal email during breaks) but must not interfere with
+work or violate policies. Do not use company resources for:
+  - Personal business ventures
+  - Political campaigning
+  - Cryptocurrency mining
+  - Accessing inappropriate content
+
+5.4 Data Protection
+Handle customer and employee data per Information Security Policy (SEC-ISP-2026-002).
+Report data breaches immediately. Do not access data beyond your authorized scope.
+
+================================================================================
+6. ANTI-CORRUPTION AND BRIBERY
+================================================================================
+
+6.1 Zero Tolerance
+NovaTech prohibits bribery and corruption in all forms, including:
+  - Cash payments to government officials
+  - Excessive gifts or hospitality to win business
+  - Facilitation payments ("speed money")
+  - Charitable donations intended to influence decisions
+
+6.2 Government Officials
+Special rules apply when dealing with government employees or officials:
+  - No gifts over $25 without Legal pre-approval
+  - All meetings documented with business purpose
+  - Government contract bids must be transparent and fair
+  - Export control compliance mandatory (see 6.4)
+
+6.3 Third-Party Agents
+Due diligence required before engaging distributors, resellers, or consultants
+who interact with government officials on NovaTech's behalf. Anti-corruption
+clauses required in all third-party agreements.
+
+6.4 Export Controls
+NovaTech products and technology subject to US export control laws (EAR, ITAR).
+Do not export, re-export, or transfer technology to sanctioned countries or
+entities without Legal approval. Sanctioned countries (2026): Cuba, Iran, North
+Korea, Syria, Crimea region. Employee travel to these regions prohibited.
+
+================================================================================
+7. FINANCIAL INTEGRITY
+================================================================================
+
+7.1 Accurate Records
+All financial records, expense reports, time sheets, and business documents must
+be accurate and complete. Falsifying records is grounds for immediate termination.
+
+7.2 Internal Controls
+Follow financial policies and approval workflows. Do not circumvent controls.
+Segregation of duties must be maintained. Report control weaknesses to Internal
+Audit (audit@novatech.io).
+
+7.3 Insider Trading
+Employees with material non-public information about NovaTech or companies we
+do business with must not trade securities. Blackout periods apply before
+earnings releases (10 days before to 2 days after). Pre-clearance required for
+Level 5+ and Finance/Legal employees. Violations reported to SEC.
+
+7.4 Fraud
+Report suspected fraud to Ethics Hotline or Internal Audit. NovaTech investigates
+all reports. Whistleblowers protected from retaliation per Whistleblower Policy
+(LEG-WBP-2025-001).
+
+================================================================================
+8. ENVIRONMENTAL AND SOCIAL RESPONSIBILITY
+================================================================================
+
+8.1 Sustainability
+NovaTech commits to carbon-neutral operations by 2028. Employees encouraged to:
+  - Minimize printing (default to digital)
+  - Use video conferencing instead of travel when practical
+  - Participate in office recycling and e-waste programs
+  - Choose sustainable vendors when options are equivalent
+
+8.2 Community Engagement
+NovaTech supports community through:
+  - NovaTech Foundation: $500K annual charitable giving
+  - Volunteer Time Off: 16 hours/year paid volunteer time
+  - STEM education partnerships in Austin, Seattle, and Bangalore
+  - Pro-bono technology support for approved nonprofits
+
+8.3 Human Rights
+NovaTech supports universal human rights. We do not tolerate forced labor,
+child labor, or human trafficking in our operations or supply chain. Supplier
+Code of Conduct required for all vendors.
+
+================================================================================
+9. REPORTING VIOLATIONS
+================================================================================
+
+9.1 How to Report
+  - Manager or skip-level manager
+  - HR Business Partner
+  - Legal/Compliance: ethics@novatech.io
+  - Ethics Hotline: 1-800-555-0199 (anonymous, 24/7, multilingual)
+  - Online portal: ethics.novatech.io/report
+
+9.2 Non-Retaliation
+NovaTech strictly prohibits retaliation against anyone who reports a concern in
+good faith or participates in an investigation. Retaliation is itself a violation
+of this Code and grounds for termination.
+
+9.3 Investigation Process
+  - Acknowledgment within 48 hours
+  - Investigation completed within 30 days (complex cases: 60 days)
+  - Findings communicated to reporter (where identity known)
+  - Corrective action taken as appropriate
+  - Annual ethics report to Board Audit Committee
+
+9.4 False Reports
+Knowingly false or malicious reports may result in disciplinary action. Good-faith
+reports that cannot be substantiated are not considered violations.
+
+================================================================================
+10. ACKNOWLEDGMENT AND TRAINING
+================================================================================
+
+All personnel must:
+  - Read and acknowledge this Code within 14 days of hire
+  - Complete annual ethics training by March 31 each year
+  - Re-acknowledge upon material policy updates
+  - Certify annual conflict of interest disclosure (Level 4+ and managers)
+
+Acknowledgment tracked in WorkDay. Failure to complete: access restrictions after
+14-day grace period.
+
+Document Owner: Legal & Compliance
+Approved by: Board of Directors, January 2026
+Next Review: January 2027

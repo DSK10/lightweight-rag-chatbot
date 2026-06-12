@@ -1,0 +1,13 @@
+employee_id,full_name,department,course_id,course_name,completion_date,status,score
+NT-1042,Alice Chen,Engineering,SEC-101,Information Security Awareness,2026-01-15,Completed,92
+NT-1042,Alice Chen,Engineering,HR-201,Code of Conduct Annual,2026-02-01,Completed,100
+NT-2187,James Okonkwo,Sales,SEC-101,Information Security Awareness,2026-01-20,Completed,88
+NT-2187,James Okonkwo,Sales,HR-201,Code of Conduct Annual,2026-02-10,Completed,95
+NT-3301,Maria Santos,Finance,SEC-101,Information Security Awareness,2026-01-18,Completed,90
+NT-3301,Maria Santos,Finance,FIN-301,Anti-Bribery & Export Controls,2026-03-05,Completed,97
+NT-4455,David Kim,Engineering,SEC-101,Information Security Awareness,2026-02-28,In Progress,
+NT-4455,David Kim,Engineering,HR-201,Code of Conduct Annual,2026-03-01,Not Started,
+NT-5520,Priya Patel,People Ops,SEC-101,Information Security Awareness,2026-01-12,Completed,94
+NT-5520,Priya Patel,People Ops,HR-401,Workplace Harassment Prevention,2026-02-14,Completed,100
+NT-6678,Robert Nguyen,Legal,SEC-101,Information Security Awareness,2026-01-10,Completed,98
+NT-6678,Robert Nguyen,Legal,LEG-501,Insider Trading & Confidentiality,2026-01-25,Completed,100

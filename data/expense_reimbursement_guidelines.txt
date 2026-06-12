@@ -1,0 +1,245 @@
+NovaTech Solutions — Expense Reimbursement Guidelines
+Document ID: FIN-EXP-2026-003 | Effective Date: January 1, 2026 | Version 2.4
+Classification: Internal — All Employees
+
+================================================================================
+1. OVERVIEW
+================================================================================
+
+This document defines eligible expenses, submission procedures, and reimbursement
+timelines for NovaTech Solutions employees. All expenses must be business-related,
+reasonable, and supported by itemized receipts.
+
+Expense system: ExpenseBot (expensebot.novatech.io)
+Corporate card: Brex (issued to Level 3+ or with manager approval)
+Questions: finance-expenses@novatech.io
+
+================================================================================
+2. GENERAL RULES
+================================================================================
+
+2.1 Submission Deadline
+Expenses must be submitted within 30 days of incurring. Expenses older than 60
+days require Finance VP approval. Expenses older than 90 days will not be reimbursed.
+
+2.2 Receipt Requirements
+  - Required for all expenses $25 and above
+  - Itemized receipts required (credit card summaries not accepted)
+  - Foreign receipts: attach English translation if not in English
+  - Digital receipts accepted (PDF, photo). Must show vendor, date, amount, items
+
+2.3 Approval Workflow
+  Under $500: Manager approval
+  $500 – $2,000: Manager + Department head approval
+  Over $2,000: Manager + Finance approval
+  Over $10,000: Pre-approval required before purchase (email finance@novatech.io)
+
+2.4 Reimbursement Timeline
+Approved expenses reimbursed within 5 business days via direct deposit (added to
+next payroll cycle). Brex card expenses auto-reconciled monthly.
+
+2.5 Non-Reimbursable Expenses
+  - Personal travel, meals, or entertainment
+  - Traffic violations, parking tickets, toll evasion fines
+  - Alcoholic beverages (except approved client dinners — see 4.3)
+  - Gym memberships (use wellness stipend instead)
+  - Commuting costs to NovaTech office (except approved relocation)
+  - Spouse/partner travel unless pre-approved for company events
+  - First-class airfare (business class permitted for flights over 6 hours)
+  - Personal mobile phone plans (company phone provided for Level 4+)
+
+================================================================================
+3. TRAVEL EXPENSES
+================================================================================
+
+3.1 Airfare
+  - Economy class default for flights under 6 hours
+  - Premium economy permitted for flights 6–10 hours
+  - Business class permitted for flights over 10 hours or red-eye international
+  - Book through TravelPortal (Concur) for preferred rates and auto-policy check
+  - Personal loyalty points: employee may keep, but must book cheapest available
+    NovaTech-eligible fare
+
+3.2 Ground Transportation
+  - Rideshare (Uber/Lyft): approved for business travel
+  - Rental cars: mid-size standard, insurance via corporate account (decline counter
+    insurance). GPS included. Fuel reimbursable with receipt.
+  - Personal vehicle: $0.655/mile (2026 IRS rate) for business miles only
+  - Parking: reimbursed with receipt, max $50/day in major cities
+
+3.3 Lodging
+  Per-night limits (before tax):
+  Tier 1 cities (SF, NYC, London, Tokyo): $350/night
+  Tier 2 cities (Austin, Seattle, Chicago, Berlin): $250/night
+  Tier 3 cities (all others): $175/night
+  Extended stay (7+ nights): consider Airbnb or extended-stay hotel with Finance
+  pre-approval. Incidentals (minibar, movies, spa) not reimbursable.
+
+3.4 Meals During Travel
+  Per diem (when itemized receipts impractical):
+  Breakfast: $20 | Lunch: $25 | Dinner: $45
+  Per diem not combinable with actual meal reimbursement for same meal.
+  Travel day meals fully reimbursable. Non-travel day meals follow Section 4.
+
+3.5 International Travel
+  - Register travel in International SOS portal before departure
+  - Travel insurance provided automatically via corporate policy
+  - Visa fees reimbursable with receipt
+  - Currency conversion: use Brex rate or Oanda daily rate for cash expenses
+  - High-risk destinations require Security and HR pre-approval
+
+================================================================================
+4. MEALS AND ENTERTAINMENT
+================================================================================
+
+4.1 Business Meals (Internal)
+Team meals during working hours: $30/person limit. Requires at least 2 employees.
+Monthly team lunch budget: $50/person (managers track, submit monthly).
+
+4.2 Business Meals (External)
+Client or partner meals: $75/person limit. At least one NovaTech employee and one
+external guest required. Document attendees and business purpose in ExpenseBot.
+
+4.3 Client Entertainment
+Pre-approval required for expenses over $150/person. Alcohol permitted at client
+dinners with director approval. Sporting events and concerts require VP approval
+and must include at least one client/prospect.
+
+4.4 Team Events
+Quarterly team events: $100/person budget. Submit as group expense with attendee
+list. Holiday party budget managed by People Ops (not individual expense).
+
+================================================================================
+5. PROFESSIONAL DEVELOPMENT
+================================================================================
+
+5.1 Learning Budget
+Annual professional development budget by level:
+  Level 1–2: $1,500/year
+  Level 3–4: $2,500/year
+  Level 5+: $4,000/year
+
+Covers: conferences, courses, certifications, books, professional memberships.
+Submit pre-approval for expenses over $500. Conference attendance requires manager
+approval and must share learnings with team upon return.
+
+5.2 Approved Conferences (2026 Fast-Track)
+Pre-approved (no additional approval needed):
+  - AWS re:Invent, Google Cloud Next, Microsoft Build
+  - KubeCon, PyCon, React Conf, Strange Loop
+  - SaaStr, Dreamforce (sales roles only)
+
+5.3 Certifications
+Company-sponsored certifications (exam fees reimbursed):
+  - AWS Solutions Architect, GCP Professional, Azure Administrator
+  - CISSP, CISM (Security team)
+  - PMP, Scrum Master (PM team)
+  - CKA, CKAD (Engineering)
+
+Passing bonus: $500 for first attempt success. One retake fee covered.
+
+================================================================================
+6. HOME OFFICE AND REMOTE EXPENSES
+================================================================================
+
+6.1 Internet Stipend
+See Remote Work Policy (HR-RWP-2026-004):
+  Fully remote: $75/month
+  Hybrid: $40/month
+
+6.2 Home Office Setup
+One-time $1,000 stipend for eligible new remote hires (see Remote Work Policy).
+
+6.3 Equipment Purchases
+Monitors, keyboards, mice: purchase through IT catalog (preferred) or reimburse
+up to $800 total for dual monitor setup. Ergonomic equipment (standing desk,
+chair): submit through HR ergonomics program, up to $500 with occupational health
+recommendation.
+
+6.4 Co-Working
+Up to $300/month with manager pre-approval. WeWork/Regus preferred vendors.
+
+================================================================================
+7. SOFTWARE AND SUBSCRIPTIONS
+================================================================================
+
+7.1 Company-Provided Tools
+Standard tools (Slack, GitHub, Jira, Figma, Notion) provided by IT. Do not
+purchase separately.
+
+7.2 Individual Software
+Role-specific software may be reimbursed up to $30/month with manager approval.
+Examples: Raycast Pro, Alfred Powerpack, iTerm subscription. Submit via ExpenseBot
+under "Software — Individual Productivity."
+
+7.3 Prohibited
+Personal streaming services, gaming subscriptions, personal cloud storage.
+
+================================================================================
+8. CLIENT PROJECT EXPENSES
+================================================================================
+
+8.1 Billable Expenses
+Client-related expenses for billable projects must be pre-approved by Project
+Manager and tracked with client code in ExpenseBot. Mark as "Billable" for
+invoicing.
+
+8.2 On-Site Client Work
+When working at client site for 5+ consecutive days:
+  - Per diem: $60/day (covers meals and incidentals)
+  - Client-provided meals: deduct from per diem
+  - Extended client site: discuss housing with Project Manager
+
+================================================================================
+9. EXPENSE REPORTING PROCEDURES
+================================================================================
+
+9.1 ExpenseBot Workflow
+  1. Log in via Okta SSO
+  2. Create new report (select correct cost center)
+  3. Add expenses with receipt attachments
+  4. Submit for approval
+  5. Track status in "My Reports" dashboard
+
+9.2 Cost Centers
+  Engineering: CC-1000
+  Product: CC-2000
+  Sales: CC-3000
+  Marketing: CC-4000
+  G&A: CC-5000
+  Customer Success: CC-6000
+
+9.3 Tax Compliance
+NovaTech does not gross-up reimbursements for tax purposes. Employees responsible
+for personal tax implications. VAT receipts required for EU expenses (NovaTech
+VAT ID: EU372019847).
+
+9.4 Audit
+Finance audits 10% of expense reports monthly. Fraudulent submissions result in
+termination and legal action. Common audit flags:
+  - Duplicate receipts
+  - Round-number amounts without receipts
+  - Weekend expenses without business justification
+  - Expenses near policy limits consistently
+
+================================================================================
+10. SPECIAL CIRCUMSTANCES
+================================================================================
+
+10.1 Relocation
+Relocation package for eligible hires (Level 3+, approved by HR):
+  - Moving expenses up to $5,000 (receipts required)
+  - Temporary housing up to 30 days, $200/night
+  - House-hunting trip: 3 days, standard travel rates
+
+10.2 Emergency Expenses
+Unexpected business expenses (equipment failure during travel, emergency client
+visit): contact manager immediately. Retroactive approval within 48 hours.
+Emergency travel booking: call TravelPortal 24/7 line.
+
+10.3 Charitable Contributions
+NovaTech corporate matching: employee donations to approved 501(c)(3) organizations
+matched up to $1,000/year. Submit through Benevity portal (not ExpenseBot).
+
+Document Owner: Finance Operations
+Approved by: CFO, January 2026 | Next Review: January 2027

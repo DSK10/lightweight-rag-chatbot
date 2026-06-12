@@ -1,0 +1,202 @@
+NovaTech Solutions — Remote Work Policy
+Document ID: HR-RWP-2026-004 | Effective Date: January 1, 2026 | Version 2.1
+Classification: Internal — All Employees
+
+================================================================================
+1. PURPOSE AND SCOPE
+================================================================================
+
+This policy governs remote and hybrid work arrangements for all NovaTech Solutions
+employees. NovaTech operates a "Remote-First, Office-Optional" model adopted
+company-wide in March 2023.
+
+This policy applies to all full-time and part-time employees. Contractors follow
+vendor-specific agreements but must comply with Sections 5 (Security) and 6
+(Equipment) when accessing NovaTech systems remotely.
+
+================================================================================
+2. WORK ARRANGEMENT TYPES
+================================================================================
+
+2.1 Fully Remote
+Employee works 100% from a home office or approved co-working space. Must reside
+in a country/state where NovaTech has legal entity or EOR partnership.
+
+Eligible countries (2026): United States, Canada, United Kingdom, Germany, India,
+Australia, Singapore.
+
+2.2 Hybrid
+Employee splits time between a NovaTech office and remote location. Minimum office
+days: 0 (default). Teams may set local norms up to 3 days/week in office with
+director approval.
+
+2.3 Office-Based
+Employee works primarily from assigned NovaTech office. Reserved for roles
+requiring physical lab access, hardware testing, or executive leadership.
+
+2.4 Temporary Remote
+Approved for up to 30 consecutive days for personal circumstances (relocation,
+family care, travel). Requires manager approval via WorkDay. Extensions beyond
+30 days require HR approval.
+
+================================================================================
+3. ELIGIBILITY AND APPROVAL
+================================================================================
+
+3.1 Default Eligibility
+All roles at Level 1–5 are remote-eligible unless listed in the "Office-Required
+Roles" appendix (Appendix A). Currently office-required roles:
+  - Data Center Operations Engineer
+  - Hardware Lab Technician
+  - Executive Assistant (C-Suite)
+  - Office Manager
+
+3.2 New Hires
+Remote work status is confirmed in offer letter. Changes require 30-day notice
+to manager and HR.
+
+3.3 Relocation
+Employees may relocate within their approved country without approval. Cross-border
+relocation requires HR, Legal, and Tax review (4–6 week lead time). Compensation
+may be adjusted to local market rates.
+
+3.4 Performance Requirements
+Remote employees must maintain "Meets Expectations" or higher on annual review.
+Employees rated "Needs Improvement" may be required to work from office 3 days/week
+for 90-day improvement period.
+
+================================================================================
+4. HOME OFFICE REQUIREMENTS
+================================================================================
+
+4.1 Workspace Standards
+Employees must maintain a dedicated, quiet workspace with:
+  - Reliable internet: minimum 50 Mbps download, 10 Mbps upload
+  - Backup connectivity option (mobile hotspot or secondary ISP)
+  - Ergonomic chair and desk (stipend available — see 4.3)
+
+4.2 Internet Reimbursement
+Fully remote employees receive $75/month internet stipend, processed with payroll.
+Hybrid employees (1+ office days/week): $40/month. Submit via ExpenseBot by the
+5th of each month.
+
+4.3 Home Office Setup Stipend
+One-time $1,000 stipend for new remote hires. Covers desk, chair, monitor, or
+accessories. Submit receipts within 60 days of start date. Existing employees
+who transitioned to remote before 2024 are not eligible.
+
+4.4 Co-Working Spaces
+NovaTech partners with WeWork and Regus. Employees may expense up to $300/month
+for co-working membership with manager pre-approval. Book through TravelPortal.
+
+================================================================================
+5. SECURITY REQUIREMENTS
+================================================================================
+
+5.1 VPN
+All remote access to internal systems requires NovaTech VPN (GlobalProtect).
+Split tunneling is disabled. VPN must be active before accessing:
+  - GitHub Enterprise repositories
+  - AWS/GCP production environments
+  - Customer data systems (CRM, support tickets with PII)
+
+5.2 Device Security
+Company-issued laptops must have:
+  - FileVault/BitLocker encryption enabled
+  - CrowdStrike Falcon endpoint protection (auto-installed)
+  - Automatic OS updates within 7 days of release
+  - Screen lock after 5 minutes of inactivity
+
+Personal devices (BYOD) are NOT permitted for accessing NovaTech systems except
+via VDI (Virtual Desktop) for read-only Confluence access.
+
+5.3 Physical Security
+Employees must not leave company laptops visible in vehicles or public spaces.
+Report lost or stolen devices within 1 hour to security@novatech.io and IT
+Service Desk. Remote wipe will be initiated immediately.
+
+5.4 Confidentiality
+Remote employees must ensure household members and visitors cannot view or hear
+confidential information during work hours. Use privacy screens in shared spaces.
+Customer calls must be taken in private rooms.
+
+5.5 Clean Desk Policy (Remote)
+At end of each workday, secure physical documents in locked storage. Shred
+confidential papers using cross-cut shredder (reimbursable up to $50).
+
+================================================================================
+6. COMMUNICATION AND AVAILABILITY
+================================================================================
+
+6.1 Core Hours
+Remote employees must be reachable via Slack during core collaboration hours
+(10:00 AM – 3:00 PM local time). Slack status must reflect availability accurately.
+
+6.2 Response Times
+  - Slack messages: within 2 hours during core hours
+  - Email: within 24 hours on business days
+  - PagerDuty alerts (on-call): within 15 minutes, 24/7
+
+6.3 Video Meetings
+Camera-on is expected for team meetings, 1:1s, and client calls. Camera-off
+permitted for all-hands and training sessions. Background blur or NovaTech
+virtual background required when home environment is visible.
+
+6.4 Time Zone Management
+Employees must display their time zone in Slack profile. Schedule meetings across
+time zones using Clockwise or World Time Buddy. No meetings before 8:00 AM or
+after 7:00 PM in any participant's local time without consent.
+
+================================================================================
+7. REMOTE ONBOARDING
+================================================================================
+
+7.1 Equipment Shipping
+Laptops ship 5 business days before start date to home address. Track via IT
+portal. Report shipping issues to onboarding@novatech.io within 24 hours.
+
+7.2 Virtual Orientation
+Week 1: Company orientation (Day 1), team intro (Day 2), security training
+(Day 3), tools setup (Day 4), buddy check-in (Day 5).
+
+7.3 First 90 Days
+Remote new hires have weekly 1:1 with manager, bi-weekly buddy sync, and 30/60/90
+day check-ins with HR Business Partner.
+
+================================================================================
+8. EXPENSES AND TRAVEL
+================================================================================
+
+8.1 Office Visits
+When visiting a NovaTech office, expense train/flight and hotel per Travel
+Policy (TRV-2026-001). No per-diem for day trips under 50 miles.
+
+8.2 Team Offsites
+Company-sponsored team offsites: 1 per team per year, budget $1,500/person.
+Organized by team lead with Finance pre-approval.
+
+8.3 Quarterly Office Days
+Optional "Connection Days" at regional offices, typically first Thursday of each
+quarter. Company provides lunch. Travel not reimbursed unless required by manager.
+
+================================================================================
+9. POLICY VIOLATIONS
+================================================================================
+
+Violations may result in:
+  - First offense: Written warning and mandatory security retraining
+  - Second offense: Required office attendance 3 days/week for 60 days
+  - Third offense: Termination of remote privilege or employment
+
+Critical violations (data breach, VPN bypass, sharing credentials): immediate
+termination regardless of offense count.
+
+================================================================================
+10. POLICY UPDATES
+================================================================================
+
+HR reviews this policy annually. Changes communicated via company all-hands and
+email 30 days before effective date.
+
+Questions: remote-work@novatech.io
+Policy Owner: People Operations | Approved by: CHRO, January 2026

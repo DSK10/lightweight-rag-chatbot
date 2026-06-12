@@ -1,0 +1,6 @@
+vendor_name,category,primary_contact,email,phone,contract_id,renewal_date,notes
+CloudSecure Inc.,Security tooling,support@cloudsecure.io,support@cloudsecure.io,1-888-555-0142,VND-SEC-2024-011,2026-09-30,SOC2 Type II required
+WorkDay Systems,HRIS,billing@workday.com,billing@workday.com,1-800-555-0100,VND-HR-2023-004,2027-01-15,Enterprise HCM
+Meridian Travel,Corporate travel,accounts@meridiantravel.com,accounts@meridiantravel.com,1-800-555-0188,VND-TRV-2025-002,2026-06-30,Book via travel.novatech.io only
+LegalEase Partners,Outside counsel,intake@legalease.com,intake@legalease.com,1-512-555-0190,VND-LEG-2025-007,2026-12-31,NDA required before matter assignment
+GreenGrid Hosting,Cloud infrastructure,ops@greengrid.io,ops@greengrid.io,1-415-555-0177,VND-INF-2024-019,2026-08-15,99.9% SLA; US regions only
